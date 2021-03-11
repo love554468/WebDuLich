@@ -1,0 +1,112 @@
+#main
+{
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+}
+.wrapper-main
+{
+	width: 80%;
+	height: 1250px;
+	/*background-color: lightblue;*/
+	margin:0 auto;
+	box-sizing: border-box;
+}
+.information-admin
+{
+	width: 30%;
+	height: 700px;
+	/*background-color: lightblue;*/
+	float: left;
+	line-height: 30px;
+}
+.info-ad-box
+{
+	margin: 0 auto;
+	width: 80%;
+	height: 200px;
+	margin-bottom: 30px;
+	border: 0.5px solid #ccc;
+	border-radius: 3px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.info-ad-box:last-child
+{
+	height: 175px;
+}
+.information-admin span
+{
+	font-weight: bold;
+	color: #FF9820;
+}
+
+.info-cars
+{
+	width: 70%;
+	height: auto;
+	float: left;
+	line-height: 21px;
+	/*background-color: lightblue;*/
+}
+.info-cars img
+{
+	width: 100%;	
+}
+.info-cars p
+{
+	margin:30px 0;
+}
+.box_top{
+	width: 100%;
+	box-sizing: border-box;
+	height: 500px;
+}
+.box a{
+	color: #0013C9;
+	text-decoration: none;
+}
+.box a:hover{
+	opacity: 0.85;
+	color: black;
+	opacity: 0.75;
+}
+.box a:hover img
+{
+	transform: scale(1.1);
+	transition: all 0.8s ease-in-out;
+}
+.box{
+	width: 350px;
+	height: 395px;
+	/*background: green;*/
+	float: left;
+	margin:0 30px;
+	box-shadow: 0.1em 0.1em 0.25em gray;
+	box-sizing: border-box;
+	line-height: 30px;
+}
+
+.box h3 , p {
+	padding-left: 10px;
+}
+
+.box img{
+	width: 100%;
+	height:auto;
+}
+
+.box .buy-tour{
+	float:right;
+}
+
+a.buy-tour{
+	background-color:#FFB430;
+	padding: 5px 10px;
+}
+.big-box
+{
+	width: 90%;
+	height: 500px;
+	margin: 0 auto;
+}

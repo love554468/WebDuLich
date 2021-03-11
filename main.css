@@ -1,0 +1,126 @@
+#main{
+	width: 100%;
+	height:auto;
+	margin-top: 50px;
+}
+
+#upper-main{
+	margin: 0 auto;
+	width: 90%;
+	height: auto;
+	margin-bottom: 50px;
+}
+
+.box_top{
+	width: 100%;
+	padding-left: 100px;
+	box-sizing: border-box;
+	margin-top: 50px;
+	height: 425px;
+}
+.box a{
+	color: #05558a;
+	text-decoration: none;
+}
+
+.box{
+	width: 350px;
+	height: 400px;
+	float: left;
+	margin-right:50px;
+	box-shadow: 0.1em 0.1em 0.25em gray;
+	box-sizing: border-box;
+	line-height: 30px;
+	overflow: hidden;
+	border-radius: 4px;
+	position: relative;
+}
+
+.box h3 , p {
+	padding-left: 10px;
+}
+.box h3
+{
+	color: #05558a;
+    font-size: 18px;
+    font-weight: 600;
+}
+.box img{
+	width: 100%;
+	height:240px;
+	transition: all 0.65s linear;
+}
+.box img:hover 
+{
+	transform: scale(1.1);
+}
+.box .buy-tour{
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+}
+.buy-tour:hover{
+	opacity: 0.85;
+}
+a.buy-tour{
+	background-color:#ff891e;
+	padding: 0px 10px;
+	color: #ffffff;
+}
+
+#middler-main{
+	margin: 0 auto;
+	width: 90%;
+	height: 500px;
+}
+
+#left{
+	padding-left: 100px;
+	height: 100%;
+	width: auto;
+	float: left;
+}
+#right{
+	height: 100%;
+	width: auto;
+	float: left;
+	margin-left: 35px;
+}
+#middler-main a:hover{
+	opacity: 0.85;
+	color: black;
+	opacity: 0.75;
+	transition: all 1s;
+}
+#middler-main img{
+	box-shadow: 0.1em 0.1em 0.25em gray;
+}
+img.quangcao{
+	width: 360px;
+	height: 215px;
+}
+.quangcao{
+	margin:0 0 20px 0;
+}
+#lower-main{
+	width: 80%;
+	height: 600px;
+	margin-left: 175px;
+}
+
+.header-bg img{
+	width:100%;
+	height: 450px;
+}
+.tour-price{
+	background-color: #ff891e;
+	padding: 5px;
+	display: inline-table;
+	position: absolute;
+	right: 0;
+	bottom: 230px;
+	color: #ffffff;
+	text-align: right;
+	line-height: 25px;
+	padding: 5px 15px;
+}

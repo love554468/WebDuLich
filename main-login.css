@@ -1,0 +1,134 @@
+.background
+{
+	background-image: url(images/slide3-login.jpg);
+    background-size: cover;
+    height: 100%;
+  	width: 100%;
+}
+.member-wrapper 
+{
+    height: 800px;
+    position: relative;
+}
+.member-content 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 700px;
+    background-color: #fff;
+    margin: 200px;
+    margin-left: 375px;
+    padding: 20px;
+    opacity: 0.95;
+
+}
+.login h4.title, .register h4.title 
+{
+    font-size: 20px;
+    margin: 5px 0 15px;
+    text-transform: uppercase;
+}
+.text-center 
+{
+    text-align: center;
+}
+.social-block 
+{
+   /* border-right: 1px solid #ccc;*/
+    height: 400px;
+    margin-top: 20px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.member-content .social-title 
+{
+    font-size: 14px;
+    margin: 0px 0 20px;
+}
+.member-content .btn 
+{
+    transition: all .3s;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.btn-block
+{
+	width: 85%;
+}
+.btn-danger 
+{
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    border: 1px solid transparent;
+}
+.btn-primary
+{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2E6DA4;
+    border: 1px solid transparent;
+}
+.btn 
+{
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.membered-checked
+{
+	float: left;
+	margin-left: 25px;
+}
+.label-top 
+{
+    width: 100%;
+    position: relative;
+    padding: 10px 5px 5px 0;
+    width: 350px;
+}
+.form-group 
+{
+    margin-bottom: 15px;
+}
+.row
+{
+    margin-right: -30px; 
+}
+.text-left
+{
+    text-align: left;
+}
+.ghi-nho
+{
+	width: 50%;
+	float: left;
+}
+.qmatkhau
+{
+	float: left;
+}
+.text-right
+{
+	text-align: right;
+}
+.dnhap
+{
+	width: 50%;
+	float: left;
+}
+.hnhap
+{
+	width: 50%;
+	float: left;
+}
+.mbot-10
+{
+	margin-bottom: 10px;
+}

@@ -1,0 +1,72 @@
+
+.contact-content{
+	width: 80%;
+	height: 500px;
+	margin: 0 auto;
+	/*background-color: red;*/
+	box-shadow: 0.1em 0.1em 0.25em gray;
+	box-sizing: border-box;
+}
+
+
+.contact-left{
+	width: 40%;
+	height: 100%;
+	/*background-color: lightgreen;*/
+	float: left;
+}
+
+.contact-right{ 
+	height: 100%;
+	width: 60%;
+	/*background-color: lightblue;*/
+	float: left;
+	padding-top: 50px;
+	box-sizing: border-box;
+
+}
+
+.contact-left span{
+	font-size: 20px;
+}
+
+.contact-left ul{
+	list-style-type: none;
+	padding: 60px 20px 0 30px;
+}
+
+.contact-left ul li{
+	padding: 15px;
+	line-height: 25px;
+	border-bottom: 0.5px solid gray;
+}
+.contact-left ul li:last-child{
+	border-bottom: none;
+}
+.contact-right input{
+	background-color: #e0e0e0;
+	height: 34px;
+	display: block;
+	border-radius: 5px;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	color: #000;
+	font-family: 'Montserrat', 'Open Sans', sans-serif;
+    font-size: 14px;
+    border:none;
+    padding: 6px 12px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+
+}
+.contact-right input:last-child{
+	height: 150px;
+}
+
+.contact-content input.submit{
+ 	float: right;
+ 	width: 50px;
+ 	background-color: #FFB81F;
+ 	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	padding: 6px 12px;
+}
